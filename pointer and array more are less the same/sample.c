@@ -6,7 +6,7 @@ int main()
 	printf("enter n value \n");
 	scanf("%d",&n);
 	int arr[n];
-	printf("the  memory is = %d \n",sizeof(arr[]));
+	printf("the  memory is = %d \n",sizeof(arr[n]));
 	printf("enter a numbers \n");
 	for(i=0;i<5;i++)
 	{
